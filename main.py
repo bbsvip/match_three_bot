@@ -15,8 +15,9 @@ img = cv2.imread('Screenshot_20211203-233841.png')
 board, coord_board = get_board(img, rows, columns)
 
 if board:
-    for b in board:
+    for b, c in zip(board, coord_board):
         print(b)
+        print(c)
     print()
     best_move = getBestMove(board)
     x = int(best_move[3])
@@ -26,4 +27,3 @@ if board:
     print(x, y, move)
     print(coord_board[x][y])
     print(coord_board[x + toLoc[0]][y + toLoc[1]])
-
