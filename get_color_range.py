@@ -18,7 +18,7 @@ cv2.createTrackbar('R upper', 'controls', 0, 255, nothing)
 cv2.createTrackbar('G upper', 'controls', 0, 255, nothing)
 cv2.createTrackbar('B upper', 'controls', 0, 255, nothing)
 
-img = cv2.imread('image (1).jpg')
+img = cv2.imread('261142693_3082113228698708_4111398888772962532_n.png')
 # img = img[915: img.shape[0] - 40, :, :]
 h, w = img.shape[:2]
 # img = cv2.resize(img, (w // 2, h // 2))

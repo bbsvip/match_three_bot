@@ -11,7 +11,7 @@ move_code = {
 
 columns = 7
 rows = 5
-img = cv2.imread('Screenshot_20211203-233841.png')
+img = cv2.imread('261142693_3082113228698708_4111398888772962532_n.png')
 board, coord_board = get_board(img, rows, columns)
 
 if board:
